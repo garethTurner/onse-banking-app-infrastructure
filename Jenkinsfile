@@ -1,6 +1,6 @@
-def github_id = 'CHANGEME'
+def github_id = 'garethTurner'
 
-def git_repository = "https://github.com/${github_id}/onse-banking-app-infrastructure"
+def git_repository = "https://github.com/${github_id.toLowerCase()}/onse-banking-app-infrastructure"
 def namespace = github_id.toLowerCase()
 def rabbitmq_host = "${namespace}-rabbit.apps.onse-training.co.uk"
 def app_host = "${namespace}-app.apps.onse-training.co.uk"
